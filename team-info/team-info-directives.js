@@ -3,14 +3,14 @@
   app.directive('teamInfo', function() {
     return {
       restrict: 'E',
-      templateUrl: 'team-info.html'
+      templateUrl: 'team-info/team-info.html'
     };
   });
 
   app.directive('teamLogo', function(){
     return {
       restrict: 'E',
-      templateUrl: 'team-logo.html'
+      templateUrl: 'team-info/team-logo.html'
     };
   });
 })();
